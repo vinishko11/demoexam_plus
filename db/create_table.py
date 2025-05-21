@@ -7,7 +7,7 @@ def create_table(connect):
         query = '''
             create table material_type (
                 material_type text not null primary key,
-                break_percent text not null
+                break_percent real not null
             );
             
             create table materials (
